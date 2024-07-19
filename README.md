@@ -1,3 +1,9 @@
+## 配置
+
+在 `config` 目录下配置备案信息，导航栏等
+
+在 public 目录下配置网页图标 `favicon.ico`和 logo 图标 `log.png`
+
 ## 目录 即 页面
 
 比如 `first` 页面对应着 `app/first/page.mdx`，你可以可以访问 `https://demo-blog.com/first`。

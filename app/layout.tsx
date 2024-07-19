@@ -15,7 +15,9 @@ export default function RootLayout({
       <body>
         <nav className="flex py-10 flex-col items-center">
           <Link href="/">
-            <Image src="/logo.png" alt="" width={56.95} height={50}></Image>
+            <div className="w-[56.95px] h-[50px]">
+              <img src="/logo.png" alt="" className="w-full h-full"></img>
+            </div>
           </Link>
           <ul className="cursor-pointer flex flex-wrap font-bold flex gap-6 w-fit m-auto mt-4">
             {navConfig.map((item, index) => {
