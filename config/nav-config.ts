@@ -10,12 +10,12 @@ export const navConfig = [
     linkUrl: '/first'
   },
   {
-    title: 'Nav可配置',
-    linkUrl: '/third'
-  },
-  {
-    title: '可新开页面',
-    linkUrl: 'https://www.baidu.com',
-    openNewTab: true
+    title: 'About',
+    linkUrl: '/about'
   }
+  // {
+  //   title: '可新开页面',
+  //   linkUrl: 'https://www.baidu.com',
+  //   openNewTab: true
+  // }
 ]
