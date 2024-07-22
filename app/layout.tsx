@@ -25,6 +25,7 @@ export default function RootLayout({
                 <li key={index} className="hover:text-[#eb0000]">
                   <Link
                     href={item.linkUrl}
+                    // @ts-ignore
                     target={item.openNewTab ? '_blank' : ''}
                   >
                     {item.title}
